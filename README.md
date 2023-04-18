@@ -7,6 +7,18 @@ Script contains definiton of function and creation of __xgit__ alias which you c
 Path of the parent folder has to be coded into the PS function, just replace "C:\work\repos\" with path of your parent folder which holds local GIT repository folders.  
 Local GIT repositories are identified as such if they are a folder that contains ".git" folder inside.  
 
+Example:  
+Folder "C:\work\repos\" holds subfolders of local GIT repositories _cmpbin_ and _meowtris_:    
+- C:\work\repos\  
+  - cmpbin  
+    - .git  
+    - main.cpp
+    - main.h
+  - meowtris  
+    - .git  
+    - Main.cs
+    - Tetrominoes  
+
 Examples:  
 
 1. Perform "git status" command on all repositores and see their output:  
