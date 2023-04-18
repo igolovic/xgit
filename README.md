@@ -4,7 +4,8 @@ Main part of this project is Powershell (PS) function that runs any given GIT co
 This should be helpful in situation when you have many local repositories cloned locally and wwant to view and manage them via GIT commands.
 Script contains definiton of function and creation of __xgit__ alias which you can use to run GIT command on all repositories in parent folder that holds local GIT repositores.  
 
-Path of the parent folder has to be coded into the PS function.  
+Path of the parent folder has to be coded into the PS function, just replace "C:\work\repos\" with path of your parent folder which holds local GIT repository folders.  
+Local GIT repositories are identified as such if they are a folder that contains ".git" folder inside.  
 
 Examples:  
 
