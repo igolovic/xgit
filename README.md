@@ -5,8 +5,11 @@ This should be helpful in situation when you have many local repositories cloned
 Script contains definiton of function and creation of __xgit__ alias which you can use to run GIT command on all repositories in parent folder that holds local GIT repositores.  
 
 Path of the parent folder has to be coded into the PS function, just replace "C:\work\repos\" with path of your parent folder which holds local GIT repository folders.  
-Local GIT repositories are identified as such if they are a folder that contains ".git" folder inside.  
-
+Local GIT repositories are identified as such if they are a folder that contains ".git" folder inside.    
+```diff
+! Important note: as of December 2023. I noticed xgit  
+! has to be run in Administrator-mode Powershell instance in order to avoid problems.  
+```  
 Example:  
 Folder "C:\work\repos\" holds subfolders of local GIT repositories _cmpbin_ and _meowtris_:    
 - C:\work\repos\  
