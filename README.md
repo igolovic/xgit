@@ -1,5 +1,5 @@
 # xgit
-Main part of this project is Powershell (PS) function that runs any given GIT command in all local repositories in folder.  
+Functionality of this project is contained in a Powershell (PS) function that runs any given GIT command in all local repositories in a path specified within the script. By default this path is "C:\work\repos" and it is coded within the file. This value you have to change accordingly to fit your own path with parent folder that contains GIT repo folders.  
 
 This should be helpful in situation when you have many local repositories cloned locally and wwant to view and manage them via GIT commands.
 Script contains definiton of function and creation of __xgit__ alias which you can use to run GIT command on all repositories in parent folder that holds local GIT repositores.  
